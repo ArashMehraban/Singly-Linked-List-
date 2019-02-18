@@ -8,7 +8,7 @@ class LinkedList:
     def __init__(self):
         self.head = Node()
 
-    #adds a node witha  given value to the end of the list
+    #adds a node with a given value to the end of the linked list
     def add(self,data):
         new_node = Node(data)
         cur = self.head
@@ -16,7 +16,7 @@ class LinkedList:
             cur = cur.next
         cur.next = new_node
 
-    #returns the sixe of the list
+    #returns the size of the linked list
     def length(self):
         cur = self.head
         count = 0
@@ -25,7 +25,7 @@ class LinkedList:
             cur = cur.next            
         return count
 
-    #displays the list 
+    #displays the elements in linked list  
     def display(self):
         cur = self.head
         elems = []
@@ -46,7 +46,7 @@ class LinkedList:
             idx_count+=1
         return cur.data
 
-    #insets a vlaue at a given index 
+    #inserts a value at a given index 
     def insert(self,index,data):
         if(index<0):
             print('ERROR: Not a valid index!')
