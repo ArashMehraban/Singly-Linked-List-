@@ -1,7 +1,7 @@
-This is a Singly LinkedList developed in python.
+This is code for a  Singly LinkedList implemented in Python.
 
 The test cases are within the LinkedList.py file
 
-how to run:
+How to run:
 
 python LinkedList.py 
